@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script>
+SC.initialize({
+  client_id: 'b8f06bbb8e4e9e201f9e6e46001c3acb'
+});
+
+  SC.stream('/tracks/91168178').then(function(player){
+  player.play();
+});
+</script>
+
+
+
+b8f06bbb8e4e9e201f9e6e46001c3acb
+
+
+
+</head>
+<body>
+<button onclick=p()>play</button>
+</body>
+</html>
+
+
+
+<!-- https://api-v2.soundcloud.com/me/playlist_likes/ids?limit=5000&linked_partitioning=1&client_id=70NQbP0hAQBqhsY3beqmbBxCku3ujrQf&app_version=1594298235&app_locale=en
+ -->
+
